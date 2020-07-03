@@ -1,0 +1,20 @@
+.footer {
+	border-top: 1px solid #CCC;
+	padding: 20px 0;
+	margin-top: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #909090;
+    font-family: "Segoe WPN";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+@media (min-width: 480px) {
+	.footer-text {
+		font-size: 15px !important;
+	}
+}

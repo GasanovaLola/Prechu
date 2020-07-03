@@ -1,0 +1,95 @@
+.tttt {
+	width: 169px;
+	margin: 0 auto !important;
+}
+.hero {
+	padding: 38px 0;
+	font-weight: 300;
+	line-height: 44.42px;
+	color: #ffffff;
+	font-family: "Segoe WP";
+	text-align: left;
+}
+.title {
+    font-size: 26px;
+    max-width: 417px;
+    font-weight: 400;
+    line-height: 37px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-description {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24.42px;
+    text-align: center;
+}
+.height {
+	margin: auto 0;
+}
+.background {
+	background-image: url(../../img/decore.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 11px;
+    background-repeat: repeat;
+    width: 100%;
+
+    display: none;
+}
+@media (min-width: 641px) {
+	.background {
+		background-image: url(../../img/decore.png) !important;
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    height: 11px;
+	    background-repeat: repeat !important;
+	    width: 100%;
+
+	    display: block;
+	}
+	.hero-description {
+		color: #ffffff;
+		font-family: "Segoe WP";
+		font-size: 26px;
+		font-weight: 300;
+		line-height: 44.42px;
+		text-align: left;
+	}
+}
+@media (min-width: 481px) and (max-width: 640px) {
+	.tttt {
+		width: 177px;
+		margin: 0 auto;
+	}
+	.title {
+		font-size: 31px !important;
+		max-width: 391px !important;
+		font-weight: 400 !important;
+	    line-height: 28px !important;
+	    text-align: left !important;
+	}
+	.hero-description {
+		font-size: 23px;
+		max-width: 391px;
+	    line-height: 28px;
+	    text-align: left;
+	}
+	.hero {
+		text-align: center;
+		padding: 18px 0;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px) {
+	.title {
+		text-align: left !important;
+	}
+	/*.tttt {
+		width: 225px;
+		margin: 0 auto;
+	}*/
+}

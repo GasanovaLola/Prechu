@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo p {
+	font-size: 42px;
+    font-family: "Source Sans Pro";
+    letter-spacing: 0.64px;
+}
+.logo-span {
+	background-color: #5094f2;
+	padding: 25px 0px 10px 7px;
+	border-radius: 50px;
+    font-size: 64px;
+	color: #FFF;
+	width: 44px;
+	height: 44px;
+	margin-right: 17px;
+}

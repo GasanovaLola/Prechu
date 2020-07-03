@@ -1,0 +1,199 @@
+.card {
+	text-align: center;
+}
+.card-img {
+	width: 95px;
+	height: 95px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	border-radius: 186px;
+	margin: 28px auto;
+}
+
+.card-title {
+	color: #5094f2;
+	font-family: "Segoe WPN";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 44.42px;
+}
+.card-description {
+	color: #909090;
+	font-family: "Segoe WPN";
+	font-size: 14px;
+	font-weight: 400;
+}
+.pen-img {
+	width: 47px;
+    height: 67px;
+}
+.tv-img {
+	width: 48px;
+    height: 43px;
+}
+.cart-img {
+	width: 55px;
+    height: 50px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.card-img {
+		width: 100px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 136px;
+		margin: 28px auto;
+	}
+	.pen-img {
+		width: 44px;
+    	height: 64px;
+	}
+	.tv-img {
+		width: 50px;
+    	height: 43px;	
+	}
+	.cart-img {
+		width: 53px;
+    	height: 46px;
+	}
+	.cart {
+		width: 170px !important;
+	    height: 133px !important;
+	}
+	.section {
+    	margin-top: 40px !important;
+	}
+	.sub-title {
+		text-align: center;
+	}
+	.title-section {
+		text-align: center;
+	}
+}
+@media (min-width: 480px) and (max-width: 639px) {
+	.card-img {
+		width: 125px;
+		height: 125px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 136px;
+		margin: 28px auto;
+	}
+	.pen-img {
+		width: 57px; 
+		height: 80px;
+	}
+	.tv-img {
+		width: 71px; 
+		height: 61px;
+	}
+	.cart-img {
+		width: 78px; 
+		height: 71px;
+	}
+	.sub-title {
+		text-align: center;
+	}
+	.title-section {
+		text-align: center;
+	}
+	.section {
+	    margin-top: 20px !important;
+	}
+}
+@media (min-width: 480px) and (max-width: 959px) {
+	.card {
+	    margin: 0 -33px;
+	    text-align: left;
+	}
+	.card-title {
+		font-size: 34px;
+		font-weight: 400;
+		line-height: 51.86px;
+	}
+	.card-description {
+		max-width: 325px;
+		font-size: 19px;
+        font-weight: 400;
+	}
+	.card-text {
+		padding-top: 34px;
+	}
+	.cart {
+		width: 215px !important;
+    	height: 162px !important;
+        margin: 25px auto !important;
+	}
+}
+@media (min-width: 480px) and (max-width: 1199px) {
+	
+	.section {
+	    margin-top: 30px !important;
+	}
+	.description-section {
+			max-width: 512px;
+		    margin: 0 auto;
+		    font-size: 16px !important;
+			font-weight: 300 !important;
+			line-height: 36px !important;
+	}
+	.sub-title {
+		margin: 13px 24.6px;
+	    text-align: center;
+	}
+	.title-section {
+		text-align: center;
+	    margin-top: 55px;
+	}
+	.card-img {
+		width: 125px;
+		height: 125px;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		border-radius: 136px;
+		margin: 28px auto;
+	}
+	.pen-img {
+		width: 57px; 
+		height: 80px;
+	}
+	.tv-img {
+		width: 71px; 
+		height: 61px;
+	}
+	.cart-img {
+		width: 78px; 
+		height: 71px;
+	}
+	.row-medium > .column {
+	    padding: 0px 33px;
+	    border-bottom: 0.5px solid #CCC;
+	}
+	.button {
+		margin: 0;
+	}
+}
+@media (min-width: 641px) and (max-width: 920px) {
+	.width-1-1-i {
+		width: 100%;
+	}
+	.description-section {
+		text-align: center !important;
+	}
+	.section {
+   		 margin-top: 60px !important;
+		}
+	}
+	.title {
+		color: #ffffff;
+		font-family: "Segoe WP";
+		font-size: 36px;
+		font-weight: 300;
+		line-height: 44.42px;
+		text-align: center;
+	}
+}
